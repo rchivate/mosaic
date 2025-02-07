@@ -6,13 +6,11 @@ import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 
-
-
     return (
         <div className='header-container'>
             <div>
                 <NavLink to='/dinner/'>
-                    <button className="menu-button">HOME</button>
+                    <button className="menu-button">HOME1</button>
                 </NavLink>
 
                 <NavLink to='/dinner/menu'>
