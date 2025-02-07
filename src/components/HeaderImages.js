@@ -58,9 +58,10 @@ export default function HeaderImages() {
                     <img className='carousel-image' src='https://healthyresta.github.io/dinner/images/india-flag.png' alt="India" />
                     <p className='carousel-p'>A combination of vegetables, spices, roti (Indian flatbread), and rice make very delicious, flavorful vegetarian dishes.</p>
                 </div>
+
                 <div>
                     <h1 className='carousel-h1'>Mexico</h1>
-                    <img className='carousel-image' src='https://healthyresta.github.io/dinner/images/images/mexico-flag.png' alt="Mexico" />
+                    <img className='carousel-image' src='https://healthyresta.github.io/dinner/images/mexico-flag.png' alt="Mexico" />
                     <p className='carousel-p'>A combination of Indigenous and Spanish cuisine creates bold, vibrant, spicy flavors in each dish.</p>
                 </div>
 
