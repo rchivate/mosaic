@@ -1,5 +1,6 @@
 import './styles.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import StartPage from './components/StartPage';
 import Menu from './components/Menu';
@@ -8,7 +9,6 @@ import Header from './components/Header';
 import Resources from './components/Resources';
 
 function App() {
-
 
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
           <img className='logo' src='https://healthyresta.github.io/dinner/images/webmaster-main-logo.png' alt="Placeholder 1" />
 
           <Header />
-          A
+
           <Routes>
             <Route path="/dinner" element={<StartPage />}></Route>
             <Route path="/dinner/menu" element={<Menu />}></Route>
