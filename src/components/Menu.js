@@ -48,12 +48,12 @@ export default function Menu() {
 
                 <div>
                     <img src='images/buddha.jpeg' alt="india1234" onClick={() => showMenu('India')} />
-                    <span class="tooltiptext">IndiaA</span>
+                    <span class="tooltiptext">BBBC</span>
                 </div>
 
                 <div>
                     <img src='../images/buddha.jpeg' alt="Another" onClick={() => showMenu('India')} />
-                    <span class="tooltiptext">IndiaA</span>
+                    <span class="tooltiptext">AAAB</span>
                 </div>
 
 
