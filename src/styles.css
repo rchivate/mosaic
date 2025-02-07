@@ -39,7 +39,6 @@ body {
   width: 60rem;
   height: auto-fill;
   padding: 60px;
-
 }
 
 
@@ -56,23 +55,23 @@ body {
 
 .header-container {
   justify-content: center;
-  margin: 60px;
+  margin: 30px;
   margin-top: 0;
   padding: 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 100px;
+  height: 80px;
   z-index: 3;
   background: olive;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 
 .menu-button {
   margin: 10px;
   z-index: 200;
-  width: 75px;
+  width: 70px;
   height: 45px;
   font-size: 15px;
   color: white;
@@ -106,19 +105,20 @@ body {
 .carousel-container {
   align-items: center;
   z-index: 2;
-  width: 100%;
+  width: 80%;
   height: 70%;
   max-width: 1200px;
-  margin: 4rem auto;
-  padding: 20px;
-
+  margin: 3rem auto;
+  padding: 10px;
+  border: solid 3px darkgreen;
+  border-radius: 20px;
 }
 
 .react-multi-carousel-item {
+  transform: scale(0.57);
   width: 100%;
-  transition: transform 0.7s ease;
+  transition: transform 1.1s ease;
   opacity: 0.4;
-  transform: scale(1);
   display: flex;
   justify-content: center;
   /* Centers content horizontally */
@@ -128,38 +128,36 @@ body {
   margin: 0 10px;
   /* Adjust spacing between items */
   text-align: center;
+
 }
 
 .react-multi-carousel-item--active {
-  transform: scale(1);
+  transform: scale(0.96);
   opacity: 1;
   filter: blur(0px);
-  border: solid 7px rgb(0, 0, 0);
+  border: solid 3px rgb(0, 0, 0);
   border-radius: 30px;
   background: rgb(247, 224, 21);
-
-
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-container .react-multi-carousel-item {
   padding: 0 0;
-  margin: 0 10px;
+  margin: 0 0;
   align-items: center;
-
+  justify-content: center;
 }
 
 .carousel-image {
   width: 60%;
   height: auto;
-  /* Limit the image height to 80% of the container */
   object-fit: contain;
-  box-shadow: 0 0 10px 1px rgba(37, 37, 37, 0.5);
+  box-shadow: 0 0 30px 2px rgba(37, 37, 37, 0.5);
   border-radius: 10%;
 }
 
 .carousel-h1 {
   object-fit: contain;
-
   padding: 13px;
   font-size: 35px;
   color: rgb(2, 65, 2);
@@ -167,15 +165,19 @@ body {
   text-align: center;
   /* Centers text */
   border-radius: 5px;
+
 }
 
 .carousel-p {
+  font-weight: bold;
   padding: 10px;
   object-fit: contain;
-  font-size: 15px;
+  font-size: 18px;
   width: 100%;
   text-align: center;
   border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -276,7 +278,8 @@ ul {
 }
 
 .info-images {
-  width: 40%;
+  min-width: 290px;
+  width: 51%;
 }
 
 

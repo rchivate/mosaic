@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer className='footer'>
             <p className='footer-text'>
-                📞 Order Now (888-888-8888)
+                📞 Reserve or Order Now (888-888-8888)
             </p>
 
             <p className='footer-text'>
