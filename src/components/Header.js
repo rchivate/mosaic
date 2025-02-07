@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className='header-container'>
             <div>
-                <NavLink to='/dinner/'>
+                <NavLink to='/'>
                     <button className="menu-button">HOME</button>
                 </NavLink>
 
@@ -15,12 +15,11 @@ export default function Header() {
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
-                <NavLink to='/dinner/resources'>
+                <NavLink to='/resources'>
                     <button className="menu-button">INFO</button>
                 </NavLink>
 
             </div>
-
 
         </div >
     );
