@@ -66,6 +66,7 @@ export default function HeaderImages() {
                 </div>
 
 
+
                 <div>
                     <h1 className='carousel-h1'>Peru</h1>
                     <img className='carousel-image' src='https://healthyresta.github.io/dinner/images/peru-flag.png' alt="Placeholder 1" />
