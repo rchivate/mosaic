@@ -52,7 +52,7 @@ export default function Menu() {
                 </div>
 
                 <div>
-                    <img src='../images/buddha.jpeg' alt="BB" onClick={() => showMenu('India')} />
+                    <img src='https://healthyresta.github.io/dinner/images/indiaflag.png' alt="BB" onClick={() => showMenu('India')} />
                     <span class="tooltiptext">AAAB</span>
                 </div>
 
