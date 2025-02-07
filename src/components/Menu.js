@@ -47,12 +47,12 @@ export default function Menu() {
                 </div>
 
                 <div>
-                    <img src='images/buddha.jpeg' alt="india1234" onClick={() => showMenu('India')} />
+                    <img src='images/buddha.jpeg' alt="AA" onClick={() => showMenu('India')} />
                     <span class="tooltiptext">BBBC</span>
                 </div>
 
                 <div>
-                    <img src='../images/buddha.jpeg' alt="Another" onClick={() => showMenu('India')} />
+                    <img src='../images/buddha.jpeg' alt="BB" onClick={() => showMenu('India')} />
                     <span class="tooltiptext">AAAB</span>
                 </div>
 
