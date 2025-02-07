@@ -47,6 +47,7 @@ body {
   .container {
     width: 100vw;
   }
+
 }
 
 
@@ -60,6 +61,7 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   height: 100px;
   z-index: 3;
   background: olive;
@@ -188,7 +190,7 @@ body {
   margin-top: 50px;
   font-size: 30px;
   align-items: center;
-  margin: 60px;
+  margin: fill;
   flex-wrap: wrap;
 }
 
@@ -213,8 +215,8 @@ body {
   text-align: left;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 50%);
-  gap: 2rem 2rem;
+  grid-template-columns: repeat(auto-fill, 100%);
+  gap: 10px;
   margin-top: 10px;
   font-size: 25px;
 }
@@ -224,6 +226,7 @@ body {
   padding: 5px;
   border-style: solid;
   border-radius: 10px;
+  display: block;
 }
 
 ul {

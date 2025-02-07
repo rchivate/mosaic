@@ -10,7 +10,6 @@ import Resources from './components/Resources';
 function App() {
 
 
-
   return (
     <>
       <div className='main'>
@@ -22,8 +21,8 @@ function App() {
           <Header />
 
           <Routes>
-            <Route path="/" element={<StartPage />}></Route>
-            <Route path="/menu" element={<Menu />}></Route>
+            <Route path="/dinner/" element={<StartPage />}></Route>
+            <Route path="/dinner/menu" element={<Menu />}></Route>
             <Route path="/resources" element={<Resources />}></Route>
           </Routes>
         </Router>

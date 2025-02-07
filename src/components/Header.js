@@ -11,15 +11,15 @@ export default function Header() {
     return (
         <div className='header-container'>
             <div>
-                <NavLink to='/'>
+                <NavLink to='/dinner/'>
                     <button className="menu-button">HOME</button>
                 </NavLink>
 
-                <NavLink to='/menu'>
+                <NavLink to='/dinner/menu'>
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
-                <NavLink to='/resources'>
+                <NavLink to='/dinner/resources/'>
                     <button className="menu-button">INFO</button>
                 </NavLink>
 
