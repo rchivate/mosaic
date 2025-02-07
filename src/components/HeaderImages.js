@@ -35,7 +35,6 @@ export default function HeaderImages() {
                     <p className='carousel-p'>A flavorful blend of Berber, French, Arab, and Mediterranean cuisine creates a melting pot of flavors in each dish.</p>
                 </div>
 
-
                 <div>
                     <h1 className='carousel-h1'>Ethiopia</h1>
                     <img className='carousel-image' src='https://healthyresta.github.io/dinner/images/ethiopia-flag.png' alt="Ethiopia" />
