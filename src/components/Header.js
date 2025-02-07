@@ -11,11 +11,11 @@ export default function Header() {
                     <button className="menu-button">HOME1</button>
                 </NavLink>
 
-                <NavLink to='https://healthyresta.github.io/dinner/menu/'>
+                <NavLink to='https://healthyresta.github.io/dinner/menu'>
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
-                <NavLink to='/dinner/resources/'>
+                <NavLink to='/dinner/#resources/'>
                     <button className="menu-button">INFO</button>
                 </NavLink>
 

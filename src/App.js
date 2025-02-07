@@ -19,10 +19,10 @@ function App() {
           <img className='logo' src='https://healthyresta.github.io/dinner/images/webmaster-main-logo.png' alt="Placeholder 1" />
 
           <Header />
-
+          HELLO
           <Routes>
-            <Route path="/dinner/" element={<StartPage />}></Route>
-            <Route path="/dinner/menu" element={<Menu />}></Route>
+            <Route path="/dinner" element={<StartPage />}></Route>
+            <Route path="/dinner/#menu" element={<Menu />}></Route>
             <Route path="/resources" element={<Resources />}></Route>
           </Routes>
         </Router>
@@ -30,7 +30,6 @@ function App() {
       <Footer />
 
     </>
-
 
   );
 }
