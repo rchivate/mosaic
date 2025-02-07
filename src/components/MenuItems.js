@@ -1,6 +1,6 @@
 let MenuItems = [
     {
-        id: "Greece",
+        id: "Greek",
         appetizers: [
             {
                 name: "Tzatziki",
@@ -46,7 +46,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "France",
+        id: "French",
         appetizers: [
             {
                 name: "Zucchini Gratin",
@@ -92,7 +92,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "South Korea",
+        id: "South Korean",
         appetizers: [
             {
                 name: "Oi Muchim",
@@ -138,7 +138,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "Ethiopia",
+        id: "Ethiopian",
         appetizers: [
             {
                 name: "Shiro Wat",
@@ -184,7 +184,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "Algeria",
+        id: "Algerian",
         appetizers: [
             {
                 name: "Salade Mechouia",
@@ -230,7 +230,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "Peru",
+        id: "Peruvian",
         appetizers: [
             {
                 name: "Causa Limena",
@@ -276,7 +276,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "Mexico",
+        id: "Mexican",
         appetizers: [
             {
                 name: "Guacamole",
@@ -322,7 +322,7 @@ let MenuItems = [
         ]
     },
     {
-        id: "India",
+        id: "Indian",
         appetizers: [
             {
                 name: "Samosa",

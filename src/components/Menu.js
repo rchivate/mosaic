@@ -28,50 +28,50 @@ export default function Menu() {
 
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algeria')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algerian')} />
                     <span class="tooltiptext">Algeria</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopia')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopian')} />
                     <span class="tooltiptext">Ethiopia</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/france-flag.png' alt="france" onClick={() => showMenu('France')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/france-flag.png' alt="france" onClick={() => showMenu('French')} />
                     <span class="tooltiptext">France</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/greece-flag.png' alt="greece" onClick={() => showMenu('Greece')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/greece-flag.png' alt="greece" onClick={() => showMenu('Greek')} />
                     <span class="tooltiptext">Greece</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/india-flag.png' alt="india" onClick={() => showMenu('India')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/india-flag.png' alt="india" onClick={() => showMenu('Indian')} />
                     <span class="tooltiptext">India</span>
                 </div>
 
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexico')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexican')} />
                     <span class="tooltiptext">Mexico</span>
                 </div>
 
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/peru-flag.png' alt="peru" onClick={() => showMenu('Peru')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/peru-flag.png' alt="peru" onClick={() => showMenu('Peruvian')} />
                     <span class="tooltiptext">Peru</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korea')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korean')} />
                     <span class="tooltiptext">South Korea</span>
                 </div>
             </div>
 
             <div className="menu-main-container">
-                <h2>{selectedCountry ? `Menu for ${selectedCountry.id}` : "Welcome to the Menu!"}</h2>
+                <h2>{selectedCountry ? `${selectedCountry.id} Menu` : "Welcome to the Menu!"}</h2>
 
                 {selectedCountry ? (
                     <div>
