@@ -11,7 +11,7 @@ export default function Header() {
                     <button className="menu-button">HOME1</button>
                 </NavLink>
 
-                <NavLink to='https://healthyresta.github.io/dinner/menu'>
+                <NavLink to='/dinner/#menu'>
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
