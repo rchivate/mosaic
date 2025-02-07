@@ -11,7 +11,7 @@ export default function Header() {
                     <button className="menu-button">HOME</button>
                 </NavLink>
 
-                <NavLink to='/dinner/menu'>
+                <NavLink to='/menu'>
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
@@ -20,10 +20,6 @@ export default function Header() {
                 </NavLink>
 
             </div>
-
-
-
-
 
 
         </div >
