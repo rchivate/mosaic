@@ -133,7 +133,8 @@ export default function Menu() {
                 )
                 }
 
-                📞 Order Now (888-888-8888)
+                📞(888-888-8888) Order or Make a Reservation Now!
+
 
             </div>
         </div >

@@ -60,7 +60,7 @@ body {
   margin-top: 0;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   height: 100px;
   z-index: 3;
@@ -72,9 +72,9 @@ body {
 .menu-button {
   margin: 10px;
   z-index: 200;
-  width: 90px;
-  height: 60px;
-  font-size: 20px;
+  width: 75px;
+  height: 45px;
+  font-size: 15px;
   color: white;
   border: solid lightgreen;
   background-color: gray;
@@ -89,6 +89,9 @@ body {
   background: darkgreen;
   transform: scale(1.05);
 }
+
+
+
 
 
 .logo {

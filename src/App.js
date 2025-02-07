@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+
       <div className='main'>
         <img className='image-1' src='https://healthyresta.github.io/dinner/images/back.png' alt="background" />
 
@@ -19,7 +20,7 @@ function App() {
           <img className='logo' src='https://healthyresta.github.io/dinner/images/webmaster-main-logo.png' alt="Placeholder 1" />
 
           <Header />
-
+          ``
           <Routes>
             <Route path="/" element={<StartPage />}></Route>
             <Route path="/menu" element={<Menu />}></Route>

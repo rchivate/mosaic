@@ -23,7 +23,7 @@ export default function HeaderImages() {
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={2000}
+                autoPlaySpeed={1500}
                 centerMode={true} // Enable center mode
 
                 containerClass="carousel-container"
