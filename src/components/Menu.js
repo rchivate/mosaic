@@ -1,0 +1,138 @@
+import React, { useState } from 'react';
+import '../styles.css';
+
+import MenuItems from './MenuItems';
+
+export default function Menu() {
+
+    const [selectedCountry, setSelectedCountry] = useState(null);
+
+    const showMenu = (id) => {
+
+
+        console.log(Array.isArray(MenuItems));  // This should log 'true'
+        console.log(MenuItems);  // Log the actual MenuItems array
+
+        const menu = MenuItems.find(item => item.id === id);
+        if (menu) {
+            setSelectedCountry(menu);
+        } else {
+            console.error("Menu not found for ID:", id);
+        }
+    };
+
+    return (
+        <div className='container'>
+
+            <div className='menu-container'>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algeria')} />
+                    <span class="tooltiptext">Algeria</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopia')} />
+                    <span class="tooltiptext">Ethiopia</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/france-flag.png' alt="france" onClick={() => showMenu('France')} />
+                    <span class="tooltiptext">France</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/greece-flag.png' alt="greece" onClick={() => showMenu('Greece')} />
+                    <span class="tooltiptext">Greece</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/india-flag.png' alt="india" onClick={() => showMenu('India')} />
+                    <span class="tooltiptext">India</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexico')} />
+                    <span class="tooltiptext">Mexico</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/peru-flag.png' alt="peru" onClick={() => showMenu('Peru')} />
+                    <span class="tooltiptext">Peru</span>
+                </div>
+
+                <div className='tooltip'>
+                    <img className='country-card-img' src='../images/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korea')} />
+                    <span class="tooltiptext">South Korea</span>
+                </div>
+            </div>
+
+            <div className="menu-main-container">
+                <h2>{selectedCountry ? `Menu for ${selectedCountry.id}` : "Welcome to the Menu!"}</h2>
+
+                {selectedCountry ? (
+                    <div>
+                        <div className="menu-details">
+                            <div className="menu-category">
+                                <h2>Appetizers</h2>
+                                <ul>
+                                    {selectedCountry.appetizers.map((item, index) => (
+                                        <li key={index}>
+                                            <strong>{item.name}</strong> - {item.price}
+                                            <br />
+                                            <em>{item.description}</em>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <div className="menu-category">
+                                <h2>Main Course</h2>
+                                <ul>
+                                    {selectedCountry.mainCourse.map((item, index) => (
+                                        <li key={index}>
+                                            <strong>{item.name}</strong> - {item.price}
+                                            <br />
+                                            <em>{item.description}</em>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="menu-category">
+                                <h2>Dessert</h2>
+                                <ul>
+                                    {selectedCountry.dessert.map((item, index) => (
+                                        <li key={index}>
+                                            <strong>{item.name}</strong> - {item.price}
+                                            <br />
+                                            <em>{item.description}</em>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="menu-category">
+                                <h2>Drinks</h2>
+                                <ul>
+                                    {selectedCountry.drinks.map((item, index) => (
+                                        <li key={index}>
+                                            <strong>{item.name}</strong> - {item.price}
+                                            <br />
+                                            <em>{item.description}</em>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                ) : (
+                    <h2>Select a country above to view its menu</h2>
+                )
+                }
+
+                📞 Order Now (888-888-8888)
+
+            </div>
+        </div >
+    );
+}
