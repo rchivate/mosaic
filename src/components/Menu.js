@@ -46,9 +46,9 @@ export default function Menu() {
                     <span class="tooltiptext">Greece</span>
                 </div>
 
-                <div className='tooltip'>
-                    <img className='country-card-img' src='images/indiaflag.png' alt="india123" onClick={() => showMenu('India')} />
-                    <span class="tooltiptext">India</span>
+                <div>
+                    <img src='images/indiaflag.png' alt="india123" onClick={() => showMenu('India')} />
+                    <span class="tooltiptext">IndiaA</span>
                 </div>
 
                 <div className='tooltip'>
