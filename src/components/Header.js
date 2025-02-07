@@ -2,8 +2,6 @@ import React from 'react';
 import '../styles.css';
 import { NavLink } from 'react-router-dom';
 
-
-
 export default function Header() {
 
     return (
@@ -13,7 +11,7 @@ export default function Header() {
                     <button className="menu-button">HOME1</button>
                 </NavLink>
 
-                <NavLink to='/dinner/menu'>
+                <NavLink to='https://healthyresta.github.io/dinner/menu/'>
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
