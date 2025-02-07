@@ -27,45 +27,45 @@ export default function Menu() {
             <div className='menu-container'>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='../images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algeria')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algeria')} />
                     <span class="tooltiptext">Algeria</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='../images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopia')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopia')} />
                     <span class="tooltiptext">Ethiopia</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='../images/france-flag.png' alt="france" onClick={() => showMenu('France')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/france-flag.png' alt="france" onClick={() => showMenu('France')} />
                     <span class="tooltiptext">France</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='../images/greece-flag.png' alt="greece" onClick={() => showMenu('Greece')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/greece-flag.png' alt="greece" onClick={() => showMenu('Greece')} />
                     <span class="tooltiptext">Greece</span>
                 </div>
 
 
 
                 <div className='tooltip'>
-                    <img src='https://healthyresta.github.io/dinner/images/indiaflag.png' alt="BB" onClick={() => showMenu('India')} />
-                    <span class="tooltiptext">India</span>
+                    <img src='https://healthyresta.github.io/dinner/images/indiaflag.png' alt="india" onClick={() => showMenu('India')} />
+                    <span class="tooltiptext">IndiaAAA</span>
                 </div>
 
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexico')} />
-                    <span class="tooltiptext">Mexico</span>
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexico')} />
+                    <span class="tooltiptext">MexicoAAA</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/peru-flag.png' alt="peru" onClick={() => showMenu('Peru')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/peru-flag.png' alt="peru" onClick={() => showMenu('Peru')} />
                     <span class="tooltiptext">Peru</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korea')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korea')} />
                     <span class="tooltiptext">South Korea</span>
                 </div>
             </div>
