@@ -4,11 +4,13 @@ import MultiCarousel from "react-multi-carousel"; // Renamed import
 import "react-multi-carousel/lib/styles.css";
 
 
+
 const responsive = {
-    desktop: { breakpoint: { max: 3000, min: 1024 }, items: 1 },
+    desktop: { breakpoint: { max: 2000, min: 1024 }, items: 1 },
     tablet: { breakpoint: { max: 1024, min: 464 }, items: 1 },
-    mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
+    mobile: { breakpoint: { max: 264, min: 0 }, items: 1 },
 };
+
 
 
 export default function HeaderImages() {
@@ -20,7 +22,7 @@ export default function HeaderImages() {
             <MultiCarousel
                 responsive={responsive}
                 infinite={true}
-                autoPlay={true}
+                autoPlay={false}
                 autoPlaySpeed={2000}
                 centerMode={true} // Enable center mode
 
