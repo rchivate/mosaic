@@ -65,6 +65,7 @@ export default function HeaderImages() {
                     <p className='carousel-p'>A combination of Indigenous and Spanish cuisine creates bold, vibrant, spicy flavors in each dish.</p>
                 </div>
 
+
                 <div>
                     <h1 className='carousel-h1'>Peru</h1>
                     <img className='carousel-image' src='https://healthyresta.github.io/dinner/images/peru-flag.png' alt="Placeholder 1" />
