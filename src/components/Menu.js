@@ -21,13 +21,14 @@ export default function Menu() {
         }
     };
 
+
     return (
         <div className='container'>
 
             <div className='menu-container'>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algeria')} />
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeriaAA" onClick={() => showMenu('Algeria')} />
                     <span class="tooltiptext">Algeria</span>
                 </div>
 
@@ -46,11 +47,9 @@ export default function Menu() {
                     <span class="tooltiptext">Greece</span>
                 </div>
 
-
-
                 <div className='tooltip'>
-                    <img src='https://healthyresta.github.io/dinner/images/indiaflag.png' alt="india" onClick={() => showMenu('India')} />
-                    <span class="tooltiptext">IndiaAAA</span>
+                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/indiaflag.png' alt="india" onClick={() => showMenu('India')} />
+                    <span class="tooltiptext">India</span>
                 </div>
 
 
