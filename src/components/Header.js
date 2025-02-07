@@ -8,15 +8,15 @@ export default function Header() {
         <div className='header-container'>
             <div>
                 <NavLink to='/dinner/'>
-                    <button className="menu-button">HOME1</button>
+                    <button className="menu-button">HOME</button>
                 </NavLink>
 
                 <NavLink to='/dinner/menu'>
                     <button className="menu-button">MENU</button>
                 </NavLink>
 
-                <NavLink to='/resources'>
-                    <button className="menu-button">INFOA</button>
+                <NavLink to='/dinner/resources'>
+                    <button className="menu-button">INFO</button>
                 </NavLink>
 
             </div>
