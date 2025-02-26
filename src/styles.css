@@ -4,7 +4,14 @@
   padding: 0;
   box-sizing: border-box;
   align-items: center;
+
+
+  font-family: "Neuton";
+  font-weight: 500;
+  font-style: normal;
 }
+
+
 
 
 
@@ -36,7 +43,7 @@ body {
 .container {
   justify-content: center;
   align-items: center;
-  width: 60rem;
+  margin: 0;
   height: auto-fill;
   padding: 60px;
 }
@@ -49,44 +56,61 @@ body {
 
 }
 
+::-webkit-scrollbar {
+  width: 1em;
+}
 
+::-webkit-scrollbar-track {
+  margin-block: .5em;
+  border-radius: 100vw;
+}
 
+::-webkit-scrollbar-thumb {
+  background: hsl(120 75% 30% / 1);
+  border-radius: 100vw;
+}
 
-
-.header-container {
-  justify-content: center;
-  margin: 30px;
-  margin-top: 0;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 80px;
-  z-index: 3;
-  background: olive;
-  border-radius: 10px;
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120 100% 20% / 1);
 }
 
 
-.menu-button {
+.header-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 30px;
+  width: 220px;
+  height: fit;
+  z-index: 3;
+  background-color: rgba(157, 255, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  align-items: center;
+}
+
+
+
+.header-button {
   margin: 10px;
   z-index: 200;
-  width: 70px;
-  height: 45px;
+  margin: 20px;
+  width: 100px;
+  height: 50px;
   font-size: 15px;
-  color: white;
-  border: solid lightgreen;
-  background-color: gray;
+  color: black;
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
   box-shadow: 0 14px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transform: rotate(30deg);
+  transition: ease-in-out 0.2s;
 }
 
-.menu-button:hover {
-  background: darkgreen;
-  transform: scale(1.05);
+.header-button:hover {
+  background: gray;
+  transform: rotate(0deg);
 }
 
 
@@ -94,8 +118,63 @@ body {
 
 
 .logo {
-  width: 50vw;
+  width: 300px;
   align-items: center;
+}
+
+
+
+
+/*3D-CAROUSEL*/
+
+
+/*carousel*/
+.carousel-responsive-3d-carousel {
+  align-items: center;
+  z-index: 2;
+  width: 80%;
+  height: 70%;
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 10px;
+  border: solid 3px darkgreen;
+  border-radius: 20px;
+}
+
+.react-responsive-3d-carousel_item {
+  transform: scale(0.57);
+  width: 100%;
+  transition: transform 1.1s ease;
+  opacity: 0.4 !important;
+  display: flex;
+  justify-content: center;
+  /* Centers content horizontally */
+  align-items: center;
+  /* Centers content vertically */
+  filter: blur(5px) !important;
+  margin: 0 10px;
+  /* Adjust spacing between items */
+  text-align: center;
+
+}
+
+.react-responsive-3d-carousel_item--active {
+  transform: scale(0.96);
+  opacity: 1;
+  filter: blur(0px);
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+
+  background: linear-gradient(darkgreen, ) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 20px;
+  border: 4px solid transparent;
+}
+
+.react-responsive-3d-carousel .react-responsive-3d-carousel_item {
+  padding: 0 0;
+  margin: 0 0;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -128,17 +207,20 @@ body {
   margin: 0 10px;
   /* Adjust spacing between items */
   text-align: center;
-
+  background: white;
+  border-radius: 40px;
 }
 
 .react-multi-carousel-item--active {
   transform: scale(0.96);
   opacity: 1;
   filter: blur(0px);
-  border: solid 3px rgb(0, 0, 0);
-  border-radius: 30px;
-  background: rgb(247, 224, 21);
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkgreen, lightgreen) border-box;
+  border-radius: 40px;
+  border: 4px solid transparent;
 }
 
 .carousel-container .react-multi-carousel-item {
@@ -188,7 +270,7 @@ body {
 
 /* countries menu thing */
 .menu-main-container {
-  background: yellowgreen;
+  background-color: #F9EED6;
   text-align: center;
   border-radius: 50px;
   padding: 30px;
@@ -208,7 +290,7 @@ body {
   justify-content: space-around;
   align-items: center;
   justify-content: center;
-  background: green;
+  background-color: #F9EED6;
   border-radius: 30px;
   flex-wrap: wrap;
 }
@@ -252,8 +334,7 @@ ul {
 }
 
 .country-card-img:hover {
-  transform: scale(1.05);
-  border: solid white;
+  transform: rotate(10deg);
 }
 
 .country-card-img--active {
@@ -265,10 +346,12 @@ ul {
 
 /* Footer Styles */
 .footer {
-  background-color: #023f0d;
+  background-color: #00000069;
+  backdrop-filter: blur(5px);
   padding: 1rem;
   text-align: center;
   z-index: 80;
+  width: 100%;
 }
 
 .footer-text {
@@ -290,19 +373,17 @@ ul {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
-  /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background: black;
   color: #fff;
   text-align: center;
   padding: 5px 0;
-  border-radius: 6px;
+  border-radius: 10px;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;

@@ -5,21 +5,32 @@ import { NavLink } from 'react-router-dom';
 export default function Header() {
 
     return (
-        <div className='header-container'>
-            <div>
+        <div >
+
+            <div className='header-container'>
+                <img className='logo' src='https://healthyresta.github.io/dinner/images/webmaster-main-logo.png' alt="Placeholder 1" />
+
+
                 <NavLink to='/'>
-                    <button className="menu-button">HOME</button>
+                    <button className="header-button">HOME</button>
                 </NavLink>
 
                 <NavLink to='/menu'>
-                    <button className="menu-button">MENU</button>
+                    <button className="header-button">MENU</button>
+                </NavLink>
+
+                <NavLink to='/about'>
+                    <button className="header-button">ABOUT</button>
                 </NavLink>
 
                 <NavLink to='/resources'>
-                    <button className="menu-button">INFO</button>
+                    <button className="header-button">INFO</button>
                 </NavLink>
 
+
             </div>
+
+
         </div >
     );
 }

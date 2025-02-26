@@ -22,9 +22,12 @@ export default function HeaderImages() {
             <MultiCarousel
                 responsive={responsive}
                 infinite={true}
+                swipeable={false}
+                draggable={false}
                 autoPlay={true}
                 autoPlaySpeed={1500}
                 centerMode={true} // Enable center mode
+                removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
 
                 containerClass="carousel-container"
                 itemClass="react-multi-carousel-item"
