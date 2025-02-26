@@ -6,9 +6,7 @@
   align-items: center;
 
 
-  font-family: "Neuton";
-  font-weight: 500;
-  font-style: normal;
+
 }
 
 
@@ -18,10 +16,10 @@
 
 .image-1 {
   position: fixed;
+  object-fit: cover;
   z-index: -1;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
 }
 
 /* Typography */
@@ -34,6 +32,7 @@ body {
 
 .main {
   min-height: 100vh;
+  width: 100vw;
   z-index: -1;
   align-items: center;
   flex: 1;
@@ -41,17 +40,19 @@ body {
 
 
 .container {
+  max-width: 1000px;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
   height: auto-fill;
-  padding: 60px;
+  padding: 80px 20px 40px 20px;
+  overflow: hidden;
 }
 
 
-@media (min-width: 140px) {
+@media (min-width: 1000px) {
   .container {
-    width: 100vw;
+    background: none;
   }
 
 }
@@ -84,7 +85,7 @@ body {
   width: 220px;
   height: fit;
   z-index: 3;
-  background-color: rgba(157, 255, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.342);
   backdrop-filter: blur(10px);
   border-radius: 40px;
   align-items: center;
@@ -99,17 +100,19 @@ body {
   width: 100px;
   height: 50px;
   font-size: 15px;
-  color: black;
+  color: greenyellow;
+  background: rgb(45, 85, 35);
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
-  box-shadow: 0 14px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 19px rgb(219, 255, 210);
   transform: rotate(30deg);
   transition: ease-in-out 0.2s;
+  border: none;
 }
 
 .header-button:hover {
-  background: gray;
+  background: green;
   transform: rotate(0deg);
 }
 
@@ -120,6 +123,8 @@ body {
 .logo {
   width: 300px;
   align-items: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 20px 0 white;
 }
 
 
@@ -263,7 +268,6 @@ body {
 }
 
 
-/*fix the image, its in teh center now. make the image a bit bigger and remove the green backgrounds*/
 
 
 
@@ -277,7 +281,6 @@ body {
   margin-top: 50px;
   font-size: 30px;
   align-items: center;
-  margin: fill;
   flex-wrap: wrap;
 }
 
@@ -286,11 +289,14 @@ body {
   display: flex;
   flex-direction: row;
   height: auto;
-  width: 100%;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px 0 20px 0;
   justify-content: space-around;
   align-items: center;
   justify-content: center;
-  background-color: #F9EED6;
+  background-color: #000000;
+  box-shadow: 0 0 10px 0 #000000;
   border-radius: 30px;
   flex-wrap: wrap;
 }
@@ -303,7 +309,7 @@ body {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 100%);
-  gap: 10px;
+  gap: 20px;
   margin-top: 10px;
   font-size: 25px;
 }
@@ -329,40 +335,37 @@ ul {
   margin: 20px;
   border-radius: 20%;
   transition: transform 0.1s ease-in-out;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255);
   cursor: pointer;
 }
 
 .country-card-img:hover {
-  transform: rotate(10deg);
+  transform: rotate(25deg);
 }
 
-.country-card-img--active {
-  transform: scale(1.05);
-  border: solid white;
-}
 
 
 
 /* Footer Styles */
 .footer {
-  background-color: #00000069;
-  backdrop-filter: blur(5px);
+  position: relative;
+  background-color: #ffffff;
   padding: 1rem;
   text-align: center;
   z-index: 80;
   width: 100%;
+  margin: 0 auto;
 }
 
 .footer-text {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 0.9rem;
   z-index: 80;
 }
 
 .info-images {
-  min-width: 290px;
-  width: 51%;
+  width: 50%;
+  padding: 10px;
 }
 
 

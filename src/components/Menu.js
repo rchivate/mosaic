@@ -23,9 +23,9 @@ export default function Menu() {
 
     return (
         <div className='container'>
+            <h1>MENU</h1>
 
             <div className='menu-container'>
-
 
                 <div className='tooltip'>
                     <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algerian')} />
