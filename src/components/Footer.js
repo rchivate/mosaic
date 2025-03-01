@@ -9,18 +9,13 @@ export default function Footer() {
     return (
         <footer className='footer'>
             <p className='footer-text'>
-                📞 Reserve or Order Now (888-888-8888)
-            </p>
-            <p className='footer-text'>
-                📍 0003 Lane Street rd
-            </p>
-
-            <p className='footer-text'>
-                ©{currentYear} Mosaic Diner, All rights reserved.
+                📞 Reserve or Order Now (888-888-8888) |📍 0003 Lane Street rd | ©{currentYear} Mosaic Diner, All rights reserved.
             </p>
 
 
         </footer>
+
+
 
     );
 }

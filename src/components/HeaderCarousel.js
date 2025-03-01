@@ -74,7 +74,7 @@ export default function HeaderCarousel() {
                 startIndex={0}
                 onChange={(currentIndex) => console.log(currentIndex)}
                 perspectiveOrigin='center'
-                defaultOption={{ numOfSlides: 3, angleFactor: 15, depthFactor: 10 }}
+                defaultOption={{ numOfSlides: 3, angleFactor: 15, depthFactor: 1 }}
                 showStatus={false}
                 showIndicators={false}
 

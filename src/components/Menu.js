@@ -23,7 +23,6 @@ export default function Menu() {
 
     return (
         <div className='container'>
-            <h1>MENU</h1>
 
             <div className='menu-container'>
 
@@ -70,6 +69,7 @@ export default function Menu() {
                 </div>
             </div>
 
+            {/* MENU with food items */}
             <div className="menu-main-container">
                 <h2>{selectedCountry ? `${selectedCountry.id} Menu` : "Welcome to the Menu!"}</h2>
 
@@ -128,15 +128,13 @@ export default function Menu() {
 
                         </div>
                     </div>
-                ) : (
-                    <h2>Select a country above to view its menu</h2>
-                )
+                ) : (<h2>Select a country above to view its menu</h2>)
                 }
 
                 📞(888-888-8888) Order or Make a Reservation Now!
 
 
             </div>
-        </div >
+        </div>
     );
 }

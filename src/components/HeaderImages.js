@@ -25,7 +25,7 @@ export default function HeaderImages() {
                 swipeable={false}
                 draggable={false}
                 autoPlay={true}
-                autoPlaySpeed={1500}
+                autoPlaySpeed={3000}
                 centerMode={true} // Enable center mode
                 removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
 

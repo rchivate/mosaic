@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-
+      <div className='top'></div>
       <div className='main'>
         <img className='image-1' src='https://healthyresta.github.io/dinner/images/back.png' alt="background" />
         <Router>
@@ -24,8 +24,8 @@ function App() {
             <Route path="/about" element={<About />}></Route>
           </Routes>
         </Router>
-        <Footer />
       </div>
+      <Footer />
 
     </>
 

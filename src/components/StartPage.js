@@ -7,7 +7,7 @@ import HeaderCarousel from './HeaderCarousel';
 export default function StartPage() {
     return (
         <div className='container'>
-            <HeaderImages />
+            <HeaderCarousel />
         </div >
     );
 }
