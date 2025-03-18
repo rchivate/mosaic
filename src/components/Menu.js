@@ -74,7 +74,7 @@ export default function Menu() {
                 <h2>{selectedCountry ? `${selectedCountry.id} Menu` : "Welcome to the Menu!"}</h2>
 
                 {selectedCountry ? (
-                    <div>
+                    <div>                               {/* IT STARTS HERE OVER HERE */}
                         <div className="menu-details">
                             <div className="menu-category">
                                 <h2>Appetizers</h2>

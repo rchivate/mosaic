@@ -6,24 +6,26 @@ export default function Header() {
 
     return (
         <div>
+
             <div className='header-container'>
-                <img className='logo' src='https://healthyresta.github.io/dinner/images/webmaster-main-logo.png' alt="LOGO" />
+                <div>
+                    <NavLink to='/'>
+                        <button className="header-button">HOME</button>
+                    </NavLink>
 
-                <NavLink to='/'>
-                    <button className="header-button">HOME</button>
-                </NavLink>
+                    <NavLink to='/menu'>
+                        <button className="header-button">MENU</button>
+                    </NavLink>
 
-                <NavLink to='/menu'>
-                    <button className="header-button">MENU</button>
-                </NavLink>
+                    <NavLink to='/about'>
+                        <button className="header-button">ABOUT</button>
+                    </NavLink>
 
-                <NavLink to='/about'>
-                    <button className="header-button">ABOUT</button>
-                </NavLink>
+                    <NavLink to='/resources'>
+                        <button className="header-button">INFO</button>
+                    </NavLink>
+                </div>
 
-                <NavLink to='/resources'>
-                    <button className="header-button">INFO</button>
-                </NavLink>
 
             </div>
 

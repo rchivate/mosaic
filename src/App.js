@@ -12,9 +12,10 @@ function App() {
 
   return (
     <>
+      <img className='image-1' src='https://healthyresta.github.io/dinner/images/back.png' alt="background" />
+
       <div className='top'></div>
       <div className='main'>
-        <img className='image-1' src='https://healthyresta.github.io/dinner/images/back.png' alt="background" />
         <Router>
           <Header />
           <Routes>
