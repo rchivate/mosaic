@@ -10,8 +10,12 @@ export default function Header() {
             <div className='header-container'>
                 <div>
                     <NavLink to='/'>
-                        <button className="header-button">HOME</button>
+                        <img className='header-button-logo' src='https://healthyresta.github.io/dinner/images/webmaster-small-logo.png' alt="LOGO" />
+
                     </NavLink>
+                </div>
+                <div>
+
 
                     <NavLink to='/menu'>
                         <button className="header-button">MENU</button>
@@ -24,6 +28,16 @@ export default function Header() {
                     <NavLink to='/resources'>
                         <button className="header-button">INFO</button>
                     </NavLink>
+                </div>
+
+                <div>
+
+
+                    <NavLink to='/menu'>
+                        <button className="header-button">MENU</button>
+                    </NavLink>
+
+
                 </div>
 
 

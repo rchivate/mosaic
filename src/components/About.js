@@ -6,8 +6,21 @@ import '../styles.css';
 export default function About() {
     return (
         <div className='container'>
+            <h1>About Us</h1>
+
+            <section class="diagonal">
+                <div className='wrapper'>
+                    <h2>Diagonal</h2>
+                    <p>
+                        sdf
+                    </p>
+                </div>
+            </section>
+
+
+
+
             <div>
-                <h1>About Us</h1>
                 <h3>The restaurant owners are vegetarians who have gone through the struggles of finding a variety of vegetarian food in restaurants. We want to make sure to have a good The three of us are super passionate about bringing a variety of options to vegetarians.</h3>
                 <p> --</p>
                 <h4>In our team, we have magnificent certified chefs who all uniquely represent one of the eight countries. The cuisine is made by fresh produce which is grown behind our kitchen. We do not add preservatives and thus encourage our customers to finish the food within a span of a couple days. In our restaurant, we use glass plates, bowls and metal utensils to limit the trash as much as possible.</h4>
