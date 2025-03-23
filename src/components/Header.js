@@ -33,8 +33,8 @@ export default function Header() {
                 <div>
 
 
-                    <NavLink to='/menu'>
-                        <button className="header-button">MENU</button>
+                    <NavLink to='/opportunities'>
+                        <button className="header-button">Opportunities</button>
                     </NavLink>
 
 
