@@ -16,7 +16,7 @@ export default function About() {
 
             <div className="grid-container">
                 <div className="grid-item">
-                    <img src='.../images/chef.png' />
+                    <img src='https://healthyresta.github.io/dinner/images/chef.png' />
                     <h2>Our Team</h2>
                     <p>
                         Our chefs represent eight different countries, specializing in their regional cuisines.
