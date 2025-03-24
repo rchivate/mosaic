@@ -1,6 +1,5 @@
 import '../styles.css';
 
-import HeaderImages from './HeaderImages';
 
 
 export default function StartPage() {
@@ -16,6 +15,7 @@ export default function StartPage() {
             </section>
 
             <section className='intro-flag'>
+
                 <div className='flag-cards-grid'>
 
                     <div className='flag-cards'>

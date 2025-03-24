@@ -21,21 +21,23 @@ export default function Header() {
                         <button className="header-button">MENU</button>
                     </NavLink>
 
+                    <NavLink to='/opportunities'>
+                        <button className="header-button">ENGAGE</button>
+                    </NavLink>
+
                     <NavLink to='/about'>
                         <button className="header-button">ABOUT</button>
                     </NavLink>
 
-                    <NavLink to='/resources'>
-                        <button className="header-button">INFO</button>
-                    </NavLink>
+
                 </div>
 
                 <div>
-
-
-                    <NavLink to='/opportunities'>
-                        <button className="header-button">Opportunities</button>
+                    <NavLink to='/resources'>
+                        <button className="header-button">INFO</button>
                     </NavLink>
+
+
 
 
                 </div>

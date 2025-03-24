@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles.css';
+import { BiDonateHeart } from "react-icons/bi";
+
 
 export default function About() {
     return (
@@ -14,15 +16,16 @@ export default function About() {
 
             <div className="grid-container">
                 <div className="grid-item">
+                    <img src='.../images/chef.png' />
                     <h2>Our Team</h2>
                     <p>
                         Our chefs represent eight different countries, specializing in their regional cuisines.
-                        Everything is made from fresh produce grown behind our kitchen—no preservatives, just pure flavor.
+                        Everything is made from fresh produce grown behind our kitchen— no preservatives, just pure flavor.
                     </p>
                 </div>
 
                 <div className="grid-item">
-                    <h2>Eco-Friendly Practices</h2>
+                    <h2><BiDonateHeart /> Eco-Friendly Practices</h2>
                     <p>
                         We serve meals on glass and metal utensils to minimize waste. Our waste is sorted and composted into manure to give back to the Earth.
                     </p>
