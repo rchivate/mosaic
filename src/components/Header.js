@@ -34,7 +34,7 @@ export default function Header() {
 
                 <div>
                     <NavLink to='/resources'>
-                        <button className="header-button">INFO</button>
+                        <button className="header-button">Reference</button>
                     </NavLink>
 
 
