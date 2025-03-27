@@ -351,13 +351,6 @@ ul {
   opacity: 0.5;
 }
 
-
-
-.info-images {
-  width: 50%;
-  padding: 10px;
-}
-
 /* Footer Styles */
 .footer {
   position: fixed;
@@ -443,7 +436,7 @@ ul {
   }
 
   .header-container {
-    padding: 5px 1px 5px 1px;
+    padding: 3px 1px 4px 1px;
   }
 }
 
@@ -574,6 +567,7 @@ ul {
 /* resources */
 .resources {
   text-align: left;
+  width: 100%;
 }
 
 .resources p {
