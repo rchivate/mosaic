@@ -15,7 +15,6 @@ function App() {
     <>
       <img className='image-1' src='https://healthyresta.github.io/dinner/images/back.png' alt="background" />
 
-      <div className='top'></div>
       <div className='main'>
         <Router>
           <Header />

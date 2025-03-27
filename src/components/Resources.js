@@ -10,16 +10,15 @@ export default function Resources() {
                 <h1>Reference Page: 21764-WEBHS-1</h1>
 
                 <img className='info-images' src='https://healthyresta.github.io/dinner/images/webmaster-checkright.png' alt="copyright-checklist" />
-                <img className='info-images' src='https://healthyresta.github.io/dinner/images/webmaster-work.png' alt="copyright-checklist" />
-                <h3>Below are the PDF Links for the required student copyright checklist and plan of work log:</h3>
+                <h3>Below are the PDF Links for the required student copyright checklist and plan of work log: </h3>
                 <a href="https://drive.google.com/file/d/10guNjPTZOGpONhr5Vu4GJEtWM_sK9pnZ/view" target="_blank">Student Copyright Checklist</a>
-                <a href="https://drive.google.com/file/d/17-RIdwAuJqZg-u3hI4auZepG64CYClsZ/view" target="_blank">Plan of Work Log</a>
+                <a href="https://drive.google.com/file/d/1iTWI-GU1QfUw03A-vupL5Q0QiGAHwZBw/view?usp=sharing" target="_blank">Plan of Work Log</a>
+                <div className='spacer'></div>
 
 
+                <div className='spacer'></div>
 
-                <h2>All the images and graphics found on this website are created through Canva. All are original creations, there was no use of templates that may need to credit the creators. The images we got from Canva are all copyright-free.</h2>
-
-                <h2>These are the Royalty Free images we used that were not from Canva:</h2>
+                <h2>Royalty Free Images used on this website:</h2>
                 <p>Asaspice.dk. Dabo Kolo. 29 Nov. 2022. https://www.chefspencil.com/wp-content/uploads/dabo-kolo.jpg.webp.</p>
 
                 <p>BosskuArt. “Download Ai Generated, Chef, Cook. Royalty-Free Stock Illustration Image.” Pixabay.com, 20 Jan. 2024, pixabay.com/illustrations/ai-generated-chef-cook-food-8520995/. Accessed 27 Mar. 2025.</p>
@@ -47,6 +46,10 @@ export default function Resources() {
                 <p>Tagine. pixabay.com/photos/morocco-tagine-moroccan-clay-bowls-2290936.</p>
 
                 <p>“The Dessert Is Based around Manjar Blanco and Meringue.” iStock, www.istockphoto.com/photo/traditional-peruvian-dessert-called-suspiro-a-la-lime%C3%B1a-gm1294458519-388448749?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_photo&utm_content=srp_topbanner_media&utm_term=peruvian%2Bdessert.</p>
+                <div className='spacer'></div>                <div className='spacer'></div>
+                <h2>Resources Used:</h2>
+                <p>This website was created by ReactJS. ReactJS is a JavaScript library which allows for coders to build user interfaces, primarily for single-page applications. React allows one to build componenets that can manage their own state and update user data when needed. To style this page, we used CSS without any framework as we wanted to keep the design simple and minimalistic looking. </p>
+
 
             </div>
         </div >

@@ -10,7 +10,6 @@ export default function Opportunities() {
                 <div className='engage'>
                     <h1> Opportunities for YOU! </h1>
                     <section className='engage-section'>
-                        <img src='https://healthyresta.github.io/dinner/images/chef.png' />
                         <h2>Why?</h2>
                         <p>
                             We believe that each person has the qualities and motivation to help build an impactful, amiable community; so, we would like the time to appreciate each individual who has volunteered in our farms, worked with us to create an eco-friendly restaurant, and who has contributed to helping save the environment -- one step at a time.
