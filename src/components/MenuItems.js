@@ -109,8 +109,8 @@ let MenuItems = [
         id: "South Korean",
         appetizers: [
             {
-                name: "Oi Muchim",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/oimuchim.png",
+                name: "Oil Muchim",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/oilmuchim.png",
                 description: "Cucumbers marinated in soy sauce, rice vinegar, and red chili sauce, topped with sesame seeds.",
                 price: "$5.00"
             },
@@ -169,7 +169,7 @@ let MenuItems = [
             },
             {
                 name: "Ethiopian Style Eggplant Salad",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/eggplant.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/eggplantsalad.png",
                 description: "A salad made with eggplant, tomatoes, and onions simmered with Berbere seasoning and cayenne pepper.",
                 price: "$8.00"
             }
@@ -177,7 +177,7 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Injera",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/injere.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/injera.png",
                 description: "A fermented flatbread served with an assortment of cooked vegetables and stews.",
                 price: "$17.50"
             },
@@ -236,7 +236,7 @@ let MenuItems = [
             },
             {
                 name: "Vegetarian Tagine",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/vegetariantagine.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/vegetariantangine.png",
                 description: "A slow-cooked stew made with vegetables, dry fruits, nuts, and spices.",
                 price: "$15.00"
             }
@@ -311,7 +311,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Chicha Morada",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chicamorada.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chichamorada.png",
                 description: "A drink made with purple corn, spices, and sugar.",
                 price: "$3.50"
             }
@@ -336,13 +336,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Enchiladas",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/enchiladas.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/enchillada.png",
                 description: "Baked corn tortillas filled with cheese and beans, covered with ranchero sauce.",
                 price: "$15.00"
             },
             {
                 name: "Quesadillas",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/quesadillas.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/quesadilla.png",
                 description: "A corn tortilla filled with cheese, beans, and vegetables.",
                 price: "$10.00"
             }
@@ -364,7 +364,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Chocolate Caliente",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chocolatecaliente.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chocolatecalliente.png",
                 description: "A hot beverage made with chocolate, cinnamon, vanilla, chili, and hot water.",
                 price: "$4.00"
             }
