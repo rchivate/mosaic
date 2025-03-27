@@ -24,7 +24,7 @@ let MenuItems = [
             },
             {
                 name: "Vegetarian Moussaka",
-                imageUrl: "https://healthyresta.github.io/dinner/images/menu/moussaka.png",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/mousakka.png",
                 description: "Eggplant, zucchini, potatoes, and onion layered with tomatoes and lentils, baked with a béchamel sauce.",
                 price: "$17.50"
             }
@@ -197,6 +197,7 @@ let MenuItems = [
             },
             {
                 name: "Tibinga",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/tibinga.png",
                 description: "An Ethiopian-style pancake made with wheat dough, sugar, salt, and yeast.",
                 price: "$7.00"
             }
@@ -204,6 +205,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Bunna",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/bunna.png",
                 description: "Ethiopian-style coffee.",
                 price: "$2.00"
             }
@@ -214,11 +216,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Salade Mechouia",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/salademechouia.png",
                 description: "A salad made with roasted peppers, tomatoes, onions, and garlic topped with a lemon and olive oil dressing.",
                 price: "$8.00"
             },
             {
                 name: "Lablabi",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/lablabi.png",
                 description: "A soup made with chickpeas, cumin, garlic, and olive oil (served with bread).",
                 price: "$8.00"
             }
@@ -226,11 +230,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Couscous",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/couscous.png",
                 description: "Lentils and vegetables cooked with spices and olive oil.",
                 price: "$11.00"
             },
             {
                 name: "Vegetarian Tagine",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/vegetariantagine.png",
                 description: "A slow-cooked stew made with vegetables, dry fruits, nuts, and spices.",
                 price: "$15.00"
             }
@@ -238,11 +244,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Baklava",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/baklava.png",
                 description: "Layers of baked phyllo dough filled with nuts and soaked in a sweet syrup.",
                 price: "$6.00"
             },
             {
                 name: "Kalb El Louz",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/kalbellouz.png",
                 description: "A dense almond cake made with semolina, sugar, butter, and almonds flavored with orange blossom water and soaked in a sugar syrup after baking.",
                 price: "$8.00"
             }
@@ -250,6 +258,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Mint Tea",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/minttea.png",
                 description: "A drink made with mint leaves, green tea, sugar, and hot water.",
                 price: "$2.00"
             }
@@ -260,11 +269,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Causa Limena",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/causalimena.png",
                 description: "A layered potato dish made with potatoes, lemon, aji amarillo, and olive oil garnished with hard-boiled eggs and olives.",
                 price: "$7.50"
             },
             {
                 name: "Choclo con Queso",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chocloconqueso.png",
                 description: "Boiled corn served with cheese and a side of aji sauce.",
                 price: "$6.00"
             }
@@ -272,11 +283,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Arroz con Vegetales",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/arrozconvegetales.png",
                 description: "A rice dish made with rice, vegetables, and seasoned with spices and aji amarillo sauce.",
                 price: "$15.00"
             },
             {
                 name: "Tacu Tacu",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/tacutacu.png",
                 description: "Leftover rice, beans, garlic, spices, and aji amarillo stir-fried together to form a crispy patty.",
                 price: "$13.00"
             }
@@ -284,11 +297,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Suspiro de Limena",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/suspirodelimena.png",
                 description: "A rich creamy dessert made with sweetened condensed milk, evaporated milk, egg yolks, sugar, and flavored with vanilla.",
                 price: "$7.50"
             },
             {
                 name: "Picarones",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/picarones.png",
                 description: "A donut made with squash and sweet potato flavored with aniseed and cinnamon, drizzled with molasses syrup.",
                 price: "$7.00"
             }
@@ -296,6 +311,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Chicha Morada",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chicamorada.png",
                 description: "A drink made with purple corn, spices, and sugar.",
                 price: "$3.50"
             }
@@ -306,11 +322,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Guacamole",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/guacamole.png",
                 description: "A dip made with avocados, tomatoes, onion, lime, and spices, served with tortilla chips.",
                 price: "$5.00"
             },
             {
                 name: "Chile Relleno",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chilerelleno.png",
                 description: "Poblano peppers stuffed with cheese, rice, and vegetables.",
                 price: "$7.50"
             }
@@ -318,11 +336,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Enchiladas",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/enchiladas.png",
                 description: "Baked corn tortillas filled with cheese and beans, covered with ranchero sauce.",
                 price: "$15.00"
             },
             {
                 name: "Quesadillas",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/quesadillas.png",
                 description: "A corn tortilla filled with cheese, beans, and vegetables.",
                 price: "$10.00"
             }
@@ -330,11 +350,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Churros",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/churros.png",
                 description: "A fried pastry topped with cinnamon sugar.",
                 price: "$5.00"
             },
             {
                 name: "Tres Leches Cake",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/treslechescake.png",
                 description: "A vanilla sponge cake soaked with condensed milk, evaporated milk, and whole milk.",
                 price: "$7.50"
             }
@@ -342,6 +364,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Chocolate Caliente",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chocolatecaliente.png",
                 description: "A hot beverage made with chocolate, cinnamon, vanilla, chili, and hot water.",
                 price: "$4.00"
             }
@@ -352,11 +375,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Samosa",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/samosa.png",
                 description: "A triangle-shaped fried pastry filled with mashed potatoes, peas, and spices, served with chutney.",
                 price: "$5.00"
             },
             {
                 name: "Onion Pakora",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/onionpakora.png",
                 description: "Onions dipped in a spiced batter and fried, served with chutney.",
                 price: "$5.00"
             }
@@ -364,11 +389,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Paneer Butter Masala",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/paneerbuttermasala.png",
                 description: "Cottage cheese (paneer) served in a tomato and onion-based sauce with spices, accompanied by naan.",
                 price: "$15.00"
             },
             {
                 name: "Biryani",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/biryani.png",
                 description: "A mixture of rice, yogurt, spices, and vegetables.",
                 price: "$17.50"
             }
@@ -376,11 +403,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Gulab Jamun",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/gulabjamun.png",
                 description: "Fried balls made out of milk solids soaked in sugar syrup.",
                 price: "$7.50"
             },
             {
                 name: "Rasmalai",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/rasmalai.png",
                 description: "Circular pieces of cottage cheese (paneer) soaked in milk infused with Indian spices.",
                 price: "$5.00"
             }
@@ -388,6 +417,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Mango Lassi",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/mangolassi.png",
                 description: "A drink made with mangoes, milk, yogurt, and sugar.",
                 price: "$3.50"
             }
