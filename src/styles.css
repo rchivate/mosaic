@@ -509,7 +509,12 @@ ul {
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
   border-top: 5px solid #4CAF50;
   text-align: center;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+}
 
+.grid-item:hover {
+  transform: scale(1.03);
 }
 
 .grid-item h2 {
@@ -527,7 +532,9 @@ ul {
 }
 
 .grid-item img {
-  width: 500px;
+  max-width: 500px;
+  width: 60%;
+  min-width: 400px;
   align-content: center;
 }
 
@@ -585,4 +592,56 @@ ul {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.engage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.engage-section {
+  background: #fff7a5;
+  /* Soft pastel yellow */
+  border-left: 6px solid #c6a300;
+  /* Warm goldenrod */
+  border-radius: 12px;
+  padding: 15px;
+  margin: 25px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  width: 97%;
+  max-width: 600px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.engage-section:hover {
+  transform: scale(1.03);
+}
+
+.engage h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #325203;
+  margin-bottom: 10px;
+}
+
+.engage-section h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #3d6603;
+  margin-bottom: 10px;
+}
+
+.engage-section p {
+  font-size: 18px;
+  color: #272626;
+  /* Subtle dark text */
+}
+
+
+.engage-section img {
+  max-width: 500px;
+  width: 100%;
+  min-width: 400px;
 }

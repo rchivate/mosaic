@@ -127,10 +127,11 @@ export default function Menu() {
 
                         </div>
                     </div>
-                ) : (<h2>Select a country above to view its menu</h2>)
+                ) : (<p>~Select a country above to view its menu~</p>)
                 }
-
-                📞(888-888-8888) Order or Make a Reservation Now!
+                <p>***NOTE: menu items may contain eggs, nuts, dairy, etc.***</p>
+                <p>                Order or Make a Reservation Now!
+                </p>
 
 
             </div>
