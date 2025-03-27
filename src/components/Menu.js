@@ -80,7 +80,9 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.appetizers.map((item, index) => (
                                         <li key={index}>
-                                            <strong>{item.name}</strong> - {item.price}
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <br />
+                                            {item.price}
                                             <br />
                                             <em>{item.description}</em>
                                         </li>
@@ -93,7 +95,9 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.mainCourse.map((item, index) => (
                                         <li key={index}>
-                                            <strong>{item.name}</strong> - {item.price}
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <br />
+                                            {item.price}
                                             <br />
                                             <em>{item.description}</em>
                                         </li>
@@ -105,7 +109,9 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.dessert.map((item, index) => (
                                         <li key={index}>
-                                            <strong>{item.name}</strong> - {item.price}
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <br />
+                                            {item.price}
                                             <br />
                                             <em>{item.description}</em>
                                         </li>
@@ -117,7 +123,9 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.drinks.map((item, index) => (
                                         <li key={index}>
-                                            <strong>{item.name}</strong> - {item.price}
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <br />
+                                            {item.price}
                                             <br />
                                             <em>{item.description}</em>
                                         </li>
@@ -130,11 +138,9 @@ export default function Menu() {
                 ) : (<p>~Select a country above to view its menu~</p>)
                 }
                 <p>***NOTE: menu items may contain eggs, nuts, dairy, etc.***</p>
-                <p>                Order or Make a Reservation Now!
-                </p>
-
-
+                <p>Order or Make a Reservation Now!</p>
             </div>
+
         </div>
     );
 }

@@ -296,6 +296,11 @@ body {
   display: block;
 }
 
+.menu-images {
+  width: 300px;
+
+}
+
 ul {
   list-style: none;
 }

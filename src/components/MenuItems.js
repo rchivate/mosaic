@@ -3,12 +3,14 @@ let MenuItems = [
         id: "Greek",
         appetizers: [
             {
-                name: "Tzatziki",
+                name: "tzatziki",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/tzatziki.png",
                 description: "A creamy yogurt dip with dill and cucumber served with pita chips.",
                 price: "$5.00"
             },
             {
                 name: "Choriatiki",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/choriatiki.png",
                 description: "A fresh salad made of feta cheese, tomatoes, red onions, cucumbers, green bell peppers, and olives topped with extra virgin olive oil and oregano.",
                 price: "$8.50"
             }
@@ -16,11 +18,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Spanakopita",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/spanakopita.png",
                 description: "Leafy spinach and tangy feta cheese wrapped in between layers of baked phyllo dough.",
                 price: "$12.50"
             },
             {
                 name: "Vegetarian Moussaka",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/moussaka.png",
                 description: "Eggplant, zucchini, potatoes, and onion layered with tomatoes and lentils, baked with a béchamel sauce.",
                 price: "$17.50"
             }
@@ -28,11 +32,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Galaktoboureko",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/galaktoboureko.png",
                 description: "Layers of custard baked in phyllo dough soaked with a sweet syrup.",
                 price: "$7.50"
             },
             {
                 name: "Kourabiedes",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/kourabiedes.png",
                 description: "Almond biscuits topped with powdered sugar.",
                 price: "$6.00"
             }
@@ -40,6 +46,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Soumada",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/soumada.png",
                 description: "A drink made with almonds and water simmered in sugar syrup.",
                 price: "$3.00"
             }
@@ -50,11 +57,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Zucchini Gratin",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/zucchinigratin.png",
                 description: "Sautéed zucchini strips with a bell pepper, tomato, and parmesan filling.",
                 price: "$6.50"
             },
             {
                 name: "Fromage Fort",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/fromagefort.png",
                 description: "Toasted bread topped with a filling of cheese, herbs, and garlic.",
                 price: "$7.50"
             }
@@ -62,11 +71,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Braised Beluga Lentils",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/belugalentils.png",
                 description: "Lentils braised in a tomato-based broth with fresh kale and rosemary.",
                 price: "$15.00"
             },
             {
                 name: "Onion Soup",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/onionsoup.png",
                 description: "Caramelized onions cooked in a vegetable broth topped with croutons and cheese.",
                 price: "$17.00"
             }
@@ -74,11 +85,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Macaron (4 pieces)",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/macaron.png",
                 description: "Two crisp meringue cookies made of almond flour, egg whites, and sugar sandwiched with buttercream.",
                 price: "$8.00"
             },
             {
                 name: "Chocolate Soufflé",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chocolate.png",
                 description: "A baked confection of chocolate, egg whites, egg yolks, and milk topped with powdered sugar.",
                 price: "$10.00"
             }
@@ -86,6 +99,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Chocolat Chaud",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/chocolatchaud.png",
                 description: "A hot beverage made with melted chocolate, milk, and whipped cream.",
                 price: "$4.00"
             }
@@ -96,11 +110,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Oi Muchim",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/oimuchim.png",
                 description: "Cucumbers marinated in soy sauce, rice vinegar, and red chili sauce, topped with sesame seeds.",
                 price: "$5.00"
             },
             {
                 name: "Gamjajeon",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/gamjajeon.png",
                 description: "Fried potato pancakes served with a Korean-style sauce.",
                 price: "$7.50"
             }
@@ -108,11 +124,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Bibimbap",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/bibimbap.png",
                 description: "A Korean rice bowl mixed with veggies, gochujang sauce, topped with a runny egg.",
                 price: "$15.00"
             },
             {
                 name: "Gochujang Noodles",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/gochujangnoodles.png",
                 description: "A Korean-inspired noodle dish combining noodles, gochujang sauce, vegetables, and tofu.",
                 price: "$17.50"
             }
@@ -120,11 +138,13 @@ let MenuItems = [
         dessert: [
             {
                 name: "Songpyeon",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/songpyeon.png",
                 description: "A rice cake made with rice powder, matcha tea powder, dried mung beans, and sesame seeds.",
                 price: "$7.50"
             },
             {
                 name: "Dasik",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/dasik.png",
                 description: "Cookies made with rice flour, matcha tea powder, and sesame seeds.",
                 price: "$5.00"
             }
@@ -132,6 +152,7 @@ let MenuItems = [
         drinks: [
             {
                 name: "Saenggang Cha",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/saenggangcha.png",
                 description: "Korean-style ginger tea made with hot water, ginger, and sugar.",
                 price: "$2.00"
             }
@@ -142,11 +163,13 @@ let MenuItems = [
         appetizers: [
             {
                 name: "Shiro Wat",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/shirowat.png",
                 description: "A soup made with chickpea flour, red onions, garlic, tomatoes, and Berbere seasoning.",
                 price: "$8.50"
             },
             {
                 name: "Ethiopian Style Eggplant Salad",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/eggplant.png",
                 description: "A salad made with eggplant, tomatoes, and onions simmered with Berbere seasoning and cayenne pepper.",
                 price: "$8.00"
             }
@@ -154,11 +177,13 @@ let MenuItems = [
         mainCourse: [
             {
                 name: "Injera",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/injere.png",
                 description: "A fermented flatbread served with an assortment of cooked vegetables and stews.",
                 price: "$17.50"
             },
             {
                 name: "Gomen Wat",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/gomenwat.png",
                 description: "Simmered collard greens, sautéed onions, garlic, green peppers mixed with spices.",
                 price: "$15.00"
             }
@@ -166,6 +191,7 @@ let MenuItems = [
         dessert: [
             {
                 name: "Dabo Kolo",
+                imageUrl: "https://healthyresta.github.io/dinner/images/menu/dabokolo.png",
                 description: "Fried wheat dough mixed with sugar, salt, and butter.",
                 price: "$5.00"
             },
