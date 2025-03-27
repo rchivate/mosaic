@@ -249,14 +249,21 @@ body {
 
 /* countries menu thing */
 .menu-main-container {
-  background-color: #F9EED6;
+  background-color: #fde5b2;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px 100px;
   padding: 30px;
   margin-top: 50px;
   font-size: 30px;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.menu-main-container h2 {
+  color: rgb(3, 108, 3);
+  font-weight: bold;
 }
 
 
@@ -266,7 +273,7 @@ body {
   height: auto;
   margin: 0 auto;
   width: 100%;
-  padding: 5px;
+  padding: 2px;
   justify-content: space-around;
   align-items: center;
   background-color: #000000;
@@ -290,24 +297,38 @@ body {
 
 .menu-category {
   font-size: 20px;
-  padding: 5px;
-  border-style: solid;
+  padding: 10px;
+  /*  border-style: solid;*/
   border-radius: 10px;
   display: block;
+  text-align: center;
 }
 
-.menu-images {
-  width: 300px;
-
+.menu-category h2 {
+  font-weight: bold;
+  color: rgb(11, 90, 11);
 }
 
-ul {
+.menu-category ul li em {
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+.menu-category ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.menu-category li {
+  padding: 10px;
 }
 
 .country-card-img {
-  width: 9vh;
-  height: 9vh;
+  width: auto;
+  height: 6rem;
   display: block;
   margin: 20px;
   border: none;
@@ -352,7 +373,7 @@ ul {
 }
 
 .menu-container:hover> :not(:hover) {
-  filter: blur(5px);
+  filter: blur(2px);
   opacity: 0.5;
 }
 
@@ -513,9 +534,6 @@ ul {
   width: 100%;
 }
 
-.grid-item:hover {
-  transform: scale(1.03);
-}
 
 .grid-item h2 {
   font-weight: bold;

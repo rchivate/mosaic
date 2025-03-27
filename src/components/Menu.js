@@ -80,11 +80,10 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.appetizers.map((item, index) => (
                                         <li key={index}>
-                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '200px', height: 'auto' }} />
                                             <br />
-                                            {item.price}
-                                            <br />
-                                            <em>{item.description}</em>
+                                            {item.price} <br /> <em>{item.description}</em>
+
                                         </li>
                                     ))}
                                 </ul>
@@ -95,11 +94,10 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.mainCourse.map((item, index) => (
                                         <li key={index}>
-                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '200px', height: 'auto' }} />
                                             <br />
-                                            {item.price}
-                                            <br />
-                                            <em>{item.description}</em>
+                                            {item.price} <br /> <em>{item.description}</em>
+
                                         </li>
                                     ))}
                                 </ul>
@@ -109,11 +107,10 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.dessert.map((item, index) => (
                                         <li key={index}>
-                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '200px', height: 'auto' }} />
                                             <br />
-                                            {item.price}
-                                            <br />
-                                            <em>{item.description}</em>
+                                            {item.price}<br /> <em>{item.description}</em>
+
                                         </li>
                                     ))}
                                 </ul>
@@ -123,11 +120,9 @@ export default function Menu() {
                                 <ul>
                                     {selectedCountry.drinks.map((item, index) => (
                                         <li key={index}>
-                                            <img src={item.imageUrl} alt={item.name} style={{ width: '100px', height: 'auto' }} />
+                                            <img src={item.imageUrl} alt={item.name} style={{ width: '200px', height: 'auto' }} />
                                             <br />
-                                            {item.price}
-                                            <br />
-                                            <em>{item.description}</em>
+                                            {item.price} <em>{item.description}</em>
                                         </li>
                                     ))}
                                 </ul>
