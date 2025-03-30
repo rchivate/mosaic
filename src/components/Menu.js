@@ -122,7 +122,7 @@ export default function Menu() {
                                         <li key={index}>
                                             <img src={item.imageUrl} alt={item.name} style={{ width: '200px', height: 'auto' }} />
                                             <br />
-                                            {item.price} <em>{item.description}</em>
+                                            {item.price}<br /> <em>{item.description}</em>
                                         </li>
                                     ))}
                                 </ul>

@@ -20,21 +20,21 @@ export default function Resources() {
                 <h2>Works Cited</h2>
                 <p>Asaspice.dk. Dabo Kolo. 29 Nov. 2022. https://www.chefspencil.com/wp-content/uploads/dabo-kolo.jpg.webp.</p>
 
-                <p>BosskuArt. “Download Ai Generated, Chef, Cook. Royalty-Free Stock Illustration Image.” Pixabay.com, 20 Jan. 2024, pixabay.com/illustrations/ai-generated-chef-cook-food-8520995/. Accessed 27 Mar. 2025.</p>
+                <p>BosskuArt. “Download Ai Generated, Chef, Cook. Royalty-Free Stock Illustration Image.” Pixabay.com, 20 Jan. 2024, pixabay.com/illustrations/ai-generated-chef-cook-food-8520995/. Accessed 23 Mar. 2025.</p>
 
                 <p>“Feta Cheese Greek Salad.” pixabay.com/photos/feta-cheese-greek-salad-salad-greek-581848.</p>
 
-                <p>Jr, Vidal Balielo. “A Themed Birthday Cake · Free Stock Photo.” Pexels, 4 July 2022, www.pexels.com/photo/a-themed-birthday-cake-12689144/. Accessed 27 Mar. 2025.</p>
+                <p>Jr, Vidal Balielo. “A Themed Birthday Cake · Free Stock Photo.” Pexels, 4 July 2022, www.pexels.com/photo/a-themed-birthday-cake-12689144/. Accessed 23 Mar. 2025.</p>
 
                 <p>“Lentil Soup.” pixabay.com/photos/lentil-soup-soup-lentils-red-bowls-4734947.</p>
 
                 <p>MartieABaking-Cooking. Tibinga. 29 Nov. 2022. https://www.chefspencil.com/wp-content/uploads/TibingaSheleto.jpg.webp.</p>
 
-                <p>Peggy_Marco. “Download Discount, Percent, Save Up. Royalty-Free Stock Illustration Image.” Pixabay.com, 4 Nov. 2015, pixabay.com/illustrations/discount-percent-save-up-advantage-1015443/. Accessed 27 Mar. 2025.</p>
+                <p>Peggy_Marco. “Download Discount, Percent, Save Up. Royalty-Free Stock Illustration Image.” Pixabay.com, 4 Nov. 2015, pixabay.com/illustrations/discount-percent-save-up-advantage-1015443/. Accessed 23 Mar. 2025.</p>
 
                 <p>Pakora. pixabay.com/photos/pakora-indian-food-indian-kitchen-3856054.</p>
 
-                <p>Photo By: Kaboompics.com. “Close-up Photo of Watering Crops · Free Stock Photo.” Pexels, 27 Sept. 2020, www.pexels.com/photo/close-up-photo-of-watering-crops-4750274/. Accessed 27 Mar. 2025.</p>
+                <p>Photo By: Kaboompics.com. “Close-up Photo of Watering Crops · Free Stock Photo.” Pexels, 27 Sept. 2020, www.pexels.com/photo/close-up-photo-of-watering-crops-4750274/. Accessed 23 Mar. 2025.</p>
 
                 <p>“Picarones Made With Sweet Potato and Wheat Flour. Fried and Served...” iStock, www.istockphoto.com/photo/traditional-peruvian-dessert-picarones-made-whit-sweet-potato-and-wheat-flour-gm1325444115-410471617?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_photo&utm_content=srp_topbanner_media&utm_term=peruvian%2Bdonut.</p>
 
