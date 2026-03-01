@@ -26,44 +26,44 @@ export default function Menu() {
             <div className='menu-container'>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algerian')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/algeria-flag.png' alt="algeria" onClick={() => showMenu('Algerian')} />
                     <span class="tooltiptext">Algeria</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopian')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/ethiopia-flag.png' alt="ethiopia" onClick={() => showMenu('Ethiopian')} />
                     <span class="tooltiptext">Ethiopia</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/france-flag.png' alt="france" onClick={() => showMenu('French')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/france-flag.png' alt="france" onClick={() => showMenu('French')} />
                     <span class="tooltiptext">France</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/greece-flag.png' alt="greece" onClick={() => showMenu('Greek')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/greece-flag.png' alt="greece" onClick={() => showMenu('Greek')} />
                     <span class="tooltiptext">Greece</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/india-flag.png' alt="india" onClick={() => showMenu('Indian')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/india-flag.png' alt="india" onClick={() => showMenu('Indian')} />
                     <span class="tooltiptext">India</span>
                 </div>
 
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexican')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/mexico-flag.png' alt="mexico" onClick={() => showMenu('Mexican')} />
                     <span class="tooltiptext">Mexico</span>
                 </div>
 
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/peru-flag.png' alt="peru" onClick={() => showMenu('Peruvian')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/peru-flag.png' alt="peru" onClick={() => showMenu('Peruvian')} />
                     <span class="tooltiptext">Peru</span>
                 </div>
 
                 <div className='tooltip'>
-                    <img className='country-card-img' src='https://healthyresta.github.io/dinner/images/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korean')} />
+                    <img className='country-card-img' src='https://rchivate.github.io/dinner/images/south-korea-flag.png' alt="south-korea" onClick={() => showMenu('South Korean')} />
                     <span class="tooltiptext">South Korea</span>
                 </div>
             </div>

@@ -15,7 +15,7 @@ export default function About() {
 
             <div className="grid-container">
                 <div className="grid-item">
-                    <img src='https://healthyresta.github.io/dinner/images/chef.png' />
+                    <img src='https://rchivate.github.io/dinner/images/chef.png' />
                     <h2>👨‍🍳Our Team👨‍🍳</h2>
                     <p>
                         Our chefs represent eight different countries, specializing in their regional cuisines.
@@ -24,7 +24,7 @@ export default function About() {
                 </div>
 
                 <div className="grid-item">
-                    <img src='https://healthyresta.github.io/dinner/images/ecofriendly.jpg' />
+                    <img src='https://rchivate.github.io/dinner/images/ecofriendly.jpg' />
                     <h2>❤️‍🔥Eco-Friendly Practices❤️‍🔥</h2>
                     <p>
                         We serve meals on glass and metal utensils to minimize waste. Our waste is sorted and composted into manure to give back to the Earth.
@@ -32,7 +32,7 @@ export default function About() {
                 </div>
 
                 <div className="grid-item">
-                    <img src='https://healthyresta.github.io/dinner/images/discount.jpg' />
+                    <img src='https://rchivate.github.io/dinner/images/discount.jpg' />
                     <h2>⭐Special Offers⭐</h2>
                     <p>
                         Enjoy a 10% discount and a free farm tour. See how your food is grown and prepared.
@@ -41,7 +41,7 @@ export default function About() {
                 </div>
 
                 <div className="grid-item">
-                    <img src='https://healthyresta.github.io/dinner/images/donate.jpg' />
+                    <img src='https://rchivate.github.io/dinner/images/donate.jpg' />
                     <h2>💵Food Donation💵</h2>
                     <p>
                         Any excess food is donated to local orphanages. We ensure every meal finds a purpose, reducing waste and supporting our community.
