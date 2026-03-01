@@ -11,7 +11,7 @@ export default function StartPage() {
             </section>
 
             <section className='welcome'>
-                <span className='welcome-text'>Hop aboard the Veggie Voyage, No Passport Needed!</span>
+                <span className='welcome-text'>Hop aboard the Veggie Voyage, No Passport Needed!!</span>
             </section>
 
             <section className='intro-flag'>
