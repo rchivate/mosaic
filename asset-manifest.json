@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dinner/static/css/main.d66da4cc.css",
+    "main.js": "/dinner/static/js/main.e59e66e3.js",
+    "index.html": "/dinner/index.html",
+    "main.d66da4cc.css.map": "/dinner/static/css/main.d66da4cc.css.map",
+    "main.e59e66e3.js.map": "/dinner/static/js/main.e59e66e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d66da4cc.css",
+    "static/js/main.e59e66e3.js"
+  ]
+}
