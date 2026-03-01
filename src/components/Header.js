@@ -10,7 +10,7 @@ export default function Header() {
             <div className='header-container'>
                 <div>
                     <NavLink to='/'>
-                        <img className='header-button-logo' src='https://rchivate.github.io/dinner/images/webmaster-small-logo.png' alt="LOGO" />
+                        <img className='header-button-logo' src='https://rchivate.github.io/mosaic/images/webmaster-small-logo.png' alt="LOGO" />
 
                     </NavLink>
                 </div>

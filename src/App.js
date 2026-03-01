@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <img className='image-1' src='https://rchivate.github.io/dinner/images/back.png' alt="background" />
+      <img className='image-1' src='https://rchivate.github.io/mosaic/images/back.png' alt="background" />
 
       <div className='main'>
         <Router>

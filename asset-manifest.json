@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/dinner/static/css/main.d66da4cc.css",
-    "main.js": "/dinner/static/js/main.e59e66e3.js",
-    "index.html": "/dinner/index.html",
-    "main.d66da4cc.css.map": "/dinner/static/css/main.d66da4cc.css.map",
-    "main.e59e66e3.js.map": "/dinner/static/js/main.e59e66e3.js.map"
+    "main.css": "/mosaic/static/css/main.d66da4cc.css",
+    "main.js": "/mosaic/static/js/main.e59e66e3.js",
+    "index.html": "/mosaic/index.html",
+    "main.d66da4cc.css.map": "/mosaic/static/css/main.d66da4cc.css.map",
+    "main.e59e66e3.js.map": "/mosaic/static/js/main.e59e66e3.js.map"
   },
   "entrypoints": [
     "static/css/main.d66da4cc.css",

@@ -18,7 +18,7 @@ export default function Opportunities() {
                     </section>
 
                     <section className='engage-section'>
-                        <img src='https://rchivate.github.io/dinner/images/volunteer.jpg' />
+                        <img src='https://rchivate.github.io/mosaic/images/volunteer.jpg' />
                         <h2>Volunteer Opportunities</h2>
                         <p>
                             Look out for our weekly sign-up genius links posted on this page for volunteering opportunities for teenagers. These volunteer hours qualify for the prestigious Presidential Volunteer Service Award since our farm is registered as a non-profit organization.
@@ -29,7 +29,7 @@ export default function Opportunities() {
                     </section>
 
                     <section className='engage-section'>
-                        <img src='https://rchivate.github.io/dinner/images/bday.jpg' />
+                        <img src='https://rchivate.github.io/mosaic/images/bday.jpg' />
                         <h2>Birthday Parties</h2>
                         <p>
                             For a small rent fee, you can host your child’s birthday party at our farm! In our birthday party package, we include information sessions about each of our wonderful animals, plant a tree in the name of the birthday kid, give fun challenges that includes the exploration of the farm, and much, much more!
